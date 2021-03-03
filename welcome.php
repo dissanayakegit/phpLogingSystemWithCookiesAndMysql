@@ -12,8 +12,12 @@
 
 <body>
   <div class="container">
-  <a href="logout.php">logout</a>
+    <a href="logout.php">logout</a>
     <h2>Welcome page</h2>
+    <?php
+    require_once('checkIsLoggedIn.php');
+    ?>
   </div>
 </body>
+
 </html>
